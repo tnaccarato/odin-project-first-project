@@ -1,44 +1,47 @@
-*{
-    background-color: #1F2937;
+body{
+    display: block;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* margin-inline: 20px; */
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
 }
-header{
+.container.header{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     align-items: flex-start;
-    margin-bottom: 0;
-    padding-bottom: 60px
-
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-inline: 30px;
 }
 
-.header.links{
+.header-links{
     display: flex;
     justify-content: space-between;
 }
 
-.header.link-text{
+.header.link{
     padding: 5px;
     color: #E5E7EB;
     font-size: 18px;
     align-self: flex-start;
     margin: auto;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 .header.logo{
     font-size: 24px;
     color: #F9FAF8;
     white-space: nowrap;
-    margin-left: 30px
+    margin-left: 30px;
+    height: 50px;
 }
 
-.top{
+.container.top{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    padding: auto;
+    justify-content: space-around;
 }
 
 .hero{
@@ -46,6 +49,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
     margin-left: 30px;
+    padding-bottom: 20px;
 }
 
 .hero.main-text{
@@ -86,10 +90,33 @@ header{
     align-self: center;
 }
 
-.middle div{
+.container.middle{
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
 
+.information{
+    margin: 5px
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container.quote{
+    background-color: #E5E7EB;
+}
+
+.container.bottom{
+    background-color: #3882f6;
+}
 
 
 
