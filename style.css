@@ -95,27 +95,58 @@ body{
     flex-direction: column;
     background-color: white;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.information{
+    margin: 10px;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
 }
 
-.information{
-    margin: 5px
-}
-
 .images{
     display: flex;
     justify-content: center;
+}
 
+.images img{
+    height: 250px;
+    width: 250px;
+    margin-inline: 20px;
+    border: solid 3px #3882f6;
 }
 
 .container.quote{
     background-color: #E5E7EB;
+    padding: 30px;
+}
+
+.quote.main-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote.author{
+    text-align: right;
 }
 
 .container.bottom{
     background-color: #3882f6;
+    margin:30px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.button.sign-up
+
+.container.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
 }
 
 
